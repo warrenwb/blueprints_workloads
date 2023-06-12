@@ -11,7 +11,7 @@ spec:
     namespace: prd
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/lkravi/eks_blueprints_workloads.git
+    repoURL: https://github.com/warrenwb/blueprints_workloads.git
     targetRevision: main
     path: teams/blue/prd
   syncPolicy:
