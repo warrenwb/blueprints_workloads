@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: go-web-container
-        image: lkravi/eks_bp_demo:d8c465c6
+        image: warrenwb/onclusive-job-operator:latest
         ports:
         - containerPort: 8080
         resources:
