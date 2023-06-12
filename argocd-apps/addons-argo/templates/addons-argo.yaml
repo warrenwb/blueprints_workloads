@@ -11,7 +11,7 @@ spec:
     namespace: argo
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/warrenwb/eks_blueprints_workloads.git
+    repoURL: https://github.com/warrenwb/blueprints_workloads.git
     targetRevision: main
     path: addons/argo
   syncPolicy:
