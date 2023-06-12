@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: go-web-container
-        image: warrenwb/onclusive-job-operator:latest
+        image: warrenwb/eck_bp_demo:latest
         ports:
         - containerPort: 8080
         resources:
