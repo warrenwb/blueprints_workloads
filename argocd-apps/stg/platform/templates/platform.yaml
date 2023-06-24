@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: https://github.com/warrenwb/blueprints_workloads.git
     targetRevision: main
-    path: teams/platform/job-operator/dev
+    path: teams/platform/job-operator/stg
   syncPolicy:
     automated:
       prune: true
